@@ -42,6 +42,13 @@
             background: initial;
             color: #222;!important;
         }
+
+        .fa-microphone {
+            cursor: pointer;
+            position: absolute;
+            top: 11px;
+            right: 11px;
+        }
     </style>
 </head>
 
@@ -153,13 +160,13 @@
     // UI Instance 1
     const apisearchUIFactory = apisearchUI.factory({
         app_id: 'as-29be77d7-2f64-4522',
-        index_id: 'loc-1-8f578f47-7610-491c',
-        token: 'loc-1-081e9578-fe57-41e4-8815-7520ca722baf',
-        user_id: '123',
+        index_id: 'eu1-15d067ec-b6d2-4a8a',
+        token: 'eu1-bb44c262-49a5-495e-9a5f-0d4185ae0469',
         options: {
-            endpoint: 'http://localhost:8400',
+            endpoint: 'https://eu1.apisearch.cloud',
             override_queries: true,
             use_cache: true,
+            locale: "en_EN"
         }
     });
 
@@ -169,8 +176,12 @@
             target: '.input-instance-one',
             placeholder: 'Type something on instance one...',
             clearSearch: true,
+            speechRecognition: true,
             classNames: {
                 input: 'input'
+            },
+            template: {
+                speechRecognition: '<i class="fa fa-microphone"></i>'
             }
         }),
         firstUI.widgets.result({

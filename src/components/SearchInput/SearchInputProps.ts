@@ -14,6 +14,7 @@ export interface SearchInputProps {
     initialSearch: string;
     withContainer: boolean;
     searchableFields: string[],
+    speechRecognition: boolean,
     classNames: {
         container: string,
         input: string,
@@ -21,6 +22,7 @@ export interface SearchInputProps {
     };
     template: {
         clearSearch: string,
+        speechRecognition: string,
     };
     environmentId?: string;
     repository?: Repository;
@@ -29,5 +31,6 @@ export interface SearchInputProps {
         autocomplete?: string,
         spellcheck?: boolean,
     };
-    dictionary?: { [key: string]: string; }
+    dictionary?: { [key: string]: string; };
+    config: any;
 }

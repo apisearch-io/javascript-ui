@@ -298,6 +298,7 @@ exports["default"] = Apisearch;
 "use strict";
 
 exports.__esModule = true;
+exports.Config = exports.DEFAULT_REPLICAS = exports.DEFAULT_SHARDS = void 0;
 var Synonym_1 = __webpack_require__(/*! ./Synonym */ "./node_modules/apisearch/lib/Config/Synonym.js");
 exports.DEFAULT_SHARDS = 1;
 exports.DEFAULT_REPLICAS = 0;
@@ -420,6 +421,7 @@ exports.Config = Config;
 "use strict";
 
 exports.__esModule = true;
+exports.Synonym = void 0;
 /**
  * Result class
  */
@@ -497,6 +499,7 @@ exports.Synonym = Synonym;
 "use strict";
 
 exports.__esModule = true;
+exports.ConnectionError = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var ErrorWithMessage_1 = __webpack_require__(/*! ./ErrorWithMessage */ "./node_modules/apisearch/lib/Error/ErrorWithMessage.js");
 /**
@@ -532,6 +535,7 @@ exports.ConnectionError = ConnectionError;
 "use strict";
 
 exports.__esModule = true;
+exports.ErrorWithMessage = void 0;
 /**
  * ConnectError
  */
@@ -561,6 +565,7 @@ exports.ErrorWithMessage = ErrorWithMessage;
 "use strict";
 
 exports.__esModule = true;
+exports.EventError = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var ErrorWithMessage_1 = __webpack_require__(/*! ./ErrorWithMessage */ "./node_modules/apisearch/lib/Error/ErrorWithMessage.js");
 /**
@@ -596,6 +601,7 @@ exports.EventError = EventError;
 "use strict";
 
 exports.__esModule = true;
+exports.ForbiddenError = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var ErrorWithMessage_1 = __webpack_require__(/*! ./ErrorWithMessage */ "./node_modules/apisearch/lib/Error/ErrorWithMessage.js");
 /**
@@ -655,6 +661,7 @@ exports.ForbiddenError = ForbiddenError;
 "use strict";
 
 exports.__esModule = true;
+exports.InvalidFormatError = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var ErrorWithMessage_1 = __webpack_require__(/*! ./ErrorWithMessage */ "./node_modules/apisearch/lib/Error/ErrorWithMessage.js");
 /**
@@ -818,6 +825,7 @@ exports.InvalidFormatError = InvalidFormatError;
 "use strict";
 
 exports.__esModule = true;
+exports.InvalidTokenError = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var ErrorWithMessage_1 = __webpack_require__(/*! ./ErrorWithMessage */ "./node_modules/apisearch/lib/Error/ErrorWithMessage.js");
 /**
@@ -874,6 +882,7 @@ exports.InvalidTokenError = InvalidTokenError;
 "use strict";
 
 exports.__esModule = true;
+exports.ResourceExistsError = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var ErrorWithMessage_1 = __webpack_require__(/*! ./ErrorWithMessage */ "./node_modules/apisearch/lib/Error/ErrorWithMessage.js");
 /**
@@ -933,6 +942,7 @@ exports.ResourceExistsError = ResourceExistsError;
 "use strict";
 
 exports.__esModule = true;
+exports.ResourceNotAvailableError = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var ErrorWithMessage_1 = __webpack_require__(/*! ./ErrorWithMessage */ "./node_modules/apisearch/lib/Error/ErrorWithMessage.js");
 /**
@@ -1008,6 +1018,7 @@ exports.ResourceNotAvailableError = ResourceNotAvailableError;
 "use strict";
 
 exports.__esModule = true;
+exports.UnknownError = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var ErrorWithMessage_1 = __webpack_require__(/*! ./ErrorWithMessage */ "./node_modules/apisearch/lib/Error/ErrorWithMessage.js");
 /**
@@ -1043,6 +1054,7 @@ exports.UnknownError = UnknownError;
 "use strict";
 
 exports.__esModule = true;
+exports.UnsupportedContentTypeError = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var ErrorWithMessage_1 = __webpack_require__(/*! ./ErrorWithMessage */ "./node_modules/apisearch/lib/Error/ErrorWithMessage.js");
 /**
@@ -1086,6 +1098,7 @@ exports.UnsupportedContentTypeError = UnsupportedContentTypeError;
 "use strict";
 
 exports.__esModule = true;
+exports.Square = exports.Polygon = exports.CoordinateAndDistance = exports.LocationRange = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var Coordinate_1 = __webpack_require__(/*! ../Model/Coordinate */ "./node_modules/apisearch/lib/Model/Coordinate.js");
 /**
@@ -1301,6 +1314,7 @@ exports.Square = Square;
 "use strict";
 
 exports.__esModule = true;
+exports.AxiosClient = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var axios_1 = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 var __1 = __webpack_require__(/*! .. */ "./node_modules/apisearch/lib/index.js");
@@ -1441,6 +1455,7 @@ exports.AxiosClient = AxiosClient;
 "use strict";
 
 exports.__esModule = true;
+exports.CacheClient = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var ts_md5_1 = __webpack_require__(/*! ts-md5 */ "./node_modules/ts-md5/dist/md5.js");
 /**
@@ -1536,6 +1551,7 @@ exports.CacheClient = CacheClient;
 "use strict";
 
 exports.__esModule = true;
+exports.Client = void 0;
 /**
  * Client
  */
@@ -1579,6 +1595,7 @@ exports.Client = Client;
 "use strict";
 
 exports.__esModule = true;
+exports.HttpClient = void 0;
 /**
  * Http class
  */
@@ -1602,6 +1619,7 @@ exports.HttpClient = HttpClient;
 "use strict";
 
 exports.__esModule = true;
+exports.Response = void 0;
 /**
  * Response
  */
@@ -1649,6 +1667,7 @@ exports.Response = Response;
 "use strict";
 
 exports.__esModule = true;
+exports.AppUUID = void 0;
 var InvalidFormatError_1 = __webpack_require__(/*! ../Error/InvalidFormatError */ "./node_modules/apisearch/lib/Error/InvalidFormatError.js");
 /**
  * AppUUID class
@@ -1729,6 +1748,7 @@ exports.AppUUID = AppUUID;
 "use strict";
 
 exports.__esModule = true;
+exports.Changes = exports.TYPE_ARRAY = exports.TYPE_ARRAY_EXPECTS_ELEMENT = exports.TYPE_ARRAY_ELEMENT_DELETE = exports.TYPE_ARRAY_ELEMENT_ADD = exports.TYPE_ARRAY_ELEMENT_UPDATE = exports.TYPE_LITERAL = exports.TYPE_VALUE = void 0;
 /**
  * filter constants
  */
@@ -1864,6 +1884,7 @@ exports.Changes = Changes;
 "use strict";
 
 exports.__esModule = true;
+exports.Coordinate = void 0;
 var InvalidFormatError_1 = __webpack_require__(/*! ../Error/InvalidFormatError */ "./node_modules/apisearch/lib/Error/InvalidFormatError.js");
 /**
  * Coordinate Type cast
@@ -1940,6 +1961,7 @@ exports.Coordinate = Coordinate;
 "use strict";
 
 exports.__esModule = true;
+exports.Index = void 0;
 var InvalidFormatError_1 = __webpack_require__(/*! ../Error/InvalidFormatError */ "./node_modules/apisearch/lib/Error/InvalidFormatError.js");
 var IndexUUID_1 = __webpack_require__(/*! ./IndexUUID */ "./node_modules/apisearch/lib/Model/IndexUUID.js");
 var AppUUID_1 = __webpack_require__(/*! ./AppUUID */ "./node_modules/apisearch/lib/Model/AppUUID.js");
@@ -2051,6 +2073,7 @@ exports.Index = Index;
 "use strict";
 
 exports.__esModule = true;
+exports.IndexUUID = void 0;
 var InvalidFormatError_1 = __webpack_require__(/*! ../Error/InvalidFormatError */ "./node_modules/apisearch/lib/Error/InvalidFormatError.js");
 /**
  * IndexUUID class
@@ -2131,6 +2154,7 @@ exports.IndexUUID = IndexUUID;
 "use strict";
 
 exports.__esModule = true;
+exports.Item = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var InvalidFormatError_1 = __webpack_require__(/*! ../Error/InvalidFormatError */ "./node_modules/apisearch/lib/Error/InvalidFormatError.js");
 var Coordinate_1 = __webpack_require__(/*! ./Coordinate */ "./node_modules/apisearch/lib/Model/Coordinate.js");
@@ -2564,6 +2588,7 @@ exports.Item = Item;
 "use strict";
 
 exports.__esModule = true;
+exports.ItemUUID = void 0;
 var InvalidFormatError_1 = __webpack_require__(/*! ../Error/InvalidFormatError */ "./node_modules/apisearch/lib/Error/InvalidFormatError.js");
 /**
  * ItemUUID class
@@ -2656,6 +2681,7 @@ exports.ItemUUID = ItemUUID;
 "use strict";
 
 exports.__esModule = true;
+exports.Metadata = void 0;
 /**
  * User class
  */
@@ -2731,6 +2757,7 @@ exports.Metadata = Metadata;
 "use strict";
 
 exports.__esModule = true;
+exports.User = void 0;
 var InvalidFormatError_1 = __webpack_require__(/*! ../Error/InvalidFormatError */ "./node_modules/apisearch/lib/Error/InvalidFormatError.js");
 /**
  * User class
@@ -2812,6 +2839,7 @@ exports.User = User;
 "use strict";
 
 exports.__esModule = true;
+exports.Aggregation = exports.AGGREGATION_NO_LIMIT = exports.AGGREGATION_SORT_BY_NAME_DESC = exports.AGGREGATION_SORT_BY_NAME_ASC = exports.AGGREGATION_SORT_BY_COUNT_DESC = exports.AGGREGATION_SORT_BY_COUNT_ASC = void 0;
 var Filter_1 = __webpack_require__(/*! ./Filter */ "./node_modules/apisearch/lib/Query/Filter.js");
 /**
  * Aggregation constants
@@ -2996,6 +3024,7 @@ exports.Aggregation = Aggregation;
 "use strict";
 
 exports.__esModule = true;
+exports.Filter = exports.FILTER_TYPE_QUERY = exports.FILTER_TYPE_GEO = exports.FILTER_TYPE_DATE_RANGE = exports.FILTER_TYPE_RANGE = exports.FILTER_TYPE_FIELD = exports.FILTER_PROMOTE = exports.FILTER_EXCLUDE = exports.FILTER_AT_LEAST_ONE = exports.FILTER_MUST_ALL_WITH_LEVELS = exports.FILTER_MUST_ALL = void 0;
 /**
  * filter constants
  */
@@ -3162,6 +3191,7 @@ exports.Filter = Filter;
 "use strict";
 
 exports.__esModule = true;
+exports.Query = exports.NO_MIN_SCORE = exports.QUERY_DEFAULT_SIZE = exports.QUERY_DEFAULT_PAGE = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var Coordinate_1 = __webpack_require__(/*! ../Model/Coordinate */ "./node_modules/apisearch/lib/Model/Coordinate.js");
 var ItemUUID_1 = __webpack_require__(/*! ../Model/ItemUUID */ "./node_modules/apisearch/lib/Model/ItemUUID.js");
@@ -4372,6 +4402,7 @@ exports.Query = Query;
 "use strict";
 
 exports.__esModule = true;
+exports.Range = exports.RANGE_SEPARATOR = exports.RANGE_INFINITE = exports.RANGE_MINUS_INFINITE = void 0;
 /**
  * Aggregation constants
  */
@@ -4456,6 +4487,7 @@ exports.Range = Range;
 "use strict";
 
 exports.__esModule = true;
+exports.ScoreStrategies = exports.MIN = exports.MAX = exports.AVG = exports.SUM = exports.MULTIPLY = void 0;
 var ScoreStrategy_1 = __webpack_require__(/*! ./ScoreStrategy */ "./node_modules/apisearch/lib/Query/ScoreStrategy.js");
 /**
  * ScoreStrategies constants
@@ -4567,6 +4599,7 @@ exports.ScoreStrategies = ScoreStrategies;
 "use strict";
 
 exports.__esModule = true;
+exports.ScoreStrategy = exports.DEFAULT_FACTOR = exports.DEFAULT_MISSING = exports.SCORE_MODE_MIN = exports.SCORE_MODE_MAX = exports.SCORE_MODE_AVG = exports.SCORE_MODE_SUM = exports.SCORE_MODE_NONE = exports.MODIFIER_SQUARE = exports.MODIFIER_LN = exports.MODIFIER_LOG = exports.MODIFIER_SQRT = exports.MODIFIER_NONE = exports.DECAY_GAUSS = exports.DECAY_EXP = exports.DECAY_LINEAR = exports.DECAY = exports.CUSTOM_FUNCTION = exports.BOOSTING_FIELD_VALUE = exports.DEFAULT_WEIGHT = exports.DEFAULT_TYPE = void 0;
 var Item_1 = __webpack_require__(/*! ../Model/Item */ "./node_modules/apisearch/lib/Model/Item.js");
 var Filter_1 = __webpack_require__(/*! ./Filter */ "./node_modules/apisearch/lib/Query/Filter.js");
 /**
@@ -4820,6 +4853,7 @@ exports.ScoreStrategy = ScoreStrategy;
 "use strict";
 
 exports.__esModule = true;
+exports.SortBy = exports.SORT_BY_LOCATION_MI_ASC = exports.SORT_BY_LOCATION_KM_ASC = exports.SORT_BY_TYPE_DESC = exports.SORT_BY_TYPE_ASC = exports.SORT_BY_ID_DESC = exports.SORT_BY_ID_ASC = exports.SORT_BY_AL_TUN_TUN = exports.SORT_BY_RANDOM = exports.SORT_BY_SCORE = exports.SORT_BY_MODE_MEDIAN = exports.SORT_BY_MODE_MAX = exports.SORT_BY_MODE_MIN = exports.SORT_BY_MODE_SUM = exports.SORT_BY_MODE_AVG = exports.SORT_BY_DESC = exports.SORT_BY_ASC = exports.SORT_BY_TYPE_RANDOM = exports.SORT_BY_TYPE_FUNCTION = exports.SORT_BY_TYPE_DISTANCE = exports.SORT_BY_TYPE_SCORE = exports.SORT_BY_TYPE_NESTED = exports.SORT_BY_TYPE_FIELD = void 0;
 var __1 = __webpack_require__(/*! .. */ "./node_modules/apisearch/lib/index.js");
 var Filter_1 = __webpack_require__(/*! ./Filter */ "./node_modules/apisearch/lib/Query/Filter.js");
 /**
@@ -5154,6 +5188,7 @@ exports.SortBy = SortBy;
 "use strict";
 
 exports.__esModule = true;
+exports.HttpRepository = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var ConnectionError_1 = __webpack_require__(/*! ../Error/ConnectionError */ "./node_modules/apisearch/lib/Error/ConnectionError.js");
 var InvalidFormatError_1 = __webpack_require__(/*! ../Error/InvalidFormatError */ "./node_modules/apisearch/lib/Error/InvalidFormatError.js");
@@ -5696,6 +5731,7 @@ exports.HttpRepository = HttpRepository;
 "use strict";
 
 exports.__esModule = true;
+exports.Repository = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /**
  * Aggregation class
@@ -5831,6 +5867,7 @@ exports.Repository = Repository;
 "use strict";
 
 exports.__esModule = true;
+exports.Counter = void 0;
 var Metadata_1 = __webpack_require__(/*! ../Model/Metadata */ "./node_modules/apisearch/lib/Model/Metadata.js");
 /**
  * Aggregation class
@@ -5978,6 +6015,7 @@ exports.Counter = Counter;
 "use strict";
 
 exports.__esModule = true;
+exports.Result = void 0;
 var Item_1 = __webpack_require__(/*! ../Model/Item */ "./node_modules/apisearch/lib/Model/Item.js");
 var ResultAggregations_1 = __webpack_require__(/*! ./ResultAggregations */ "./node_modules/apisearch/lib/Result/ResultAggregations.js");
 /**
@@ -6255,6 +6293,7 @@ exports.Result = Result;
 "use strict";
 
 exports.__esModule = true;
+exports.ResultAggregation = void 0;
 var tslib_1 = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 var Filter_1 = __webpack_require__(/*! ../Query/Filter */ "./node_modules/apisearch/lib/Query/Filter.js");
 var Counter_1 = __webpack_require__(/*! ./Counter */ "./node_modules/apisearch/lib/Result/Counter.js");
@@ -6514,6 +6553,7 @@ exports.ResultAggregation = ResultAggregation;
 "use strict";
 
 exports.__esModule = true;
+exports.ResultAggregations = void 0;
 var ResultAggregation_1 = __webpack_require__(/*! ./ResultAggregation */ "./node_modules/apisearch/lib/Result/ResultAggregation.js");
 /**
  * ResultAggregation class
@@ -6621,6 +6661,20 @@ exports.ResultAggregations = ResultAggregations;
 
 /***/ }),
 
+/***/ "./node_modules/apisearch/lib/Transformer/ReadTransformer.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/apisearch/lib/Transformer/ReadTransformer.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+exports.__esModule = true;
+
+
+/***/ }),
+
 /***/ "./node_modules/apisearch/lib/Transformer/Transformer.js":
 /*!***************************************************************!*\
   !*** ./node_modules/apisearch/lib/Transformer/Transformer.js ***!
@@ -6631,6 +6685,7 @@ exports.ResultAggregations = ResultAggregations;
 "use strict";
 
 exports.__esModule = true;
+exports.Transformer = void 0;
 var Item_1 = __webpack_require__(/*! ../Model/Item */ "./node_modules/apisearch/lib/Model/Item.js");
 var ItemUUID_1 = __webpack_require__(/*! ../Model/ItemUUID */ "./node_modules/apisearch/lib/Model/ItemUUID.js");
 /**
@@ -6764,6 +6819,20 @@ exports.Transformer = Transformer;
 
 /***/ }),
 
+/***/ "./node_modules/apisearch/lib/Transformer/WriteTransformer.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/apisearch/lib/Transformer/WriteTransformer.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+exports.__esModule = true;
+
+
+/***/ }),
+
 /***/ "./node_modules/apisearch/lib/index.js":
 /*!*********************************************!*\
   !*** ./node_modules/apisearch/lib/index.js ***!
@@ -6813,7 +6882,9 @@ tslib_1.__exportStar(__webpack_require__(/*! ./Result/ResultAggregation */ "./no
 tslib_1.__exportStar(__webpack_require__(/*! ./Result/ResultAggregations */ "./node_modules/apisearch/lib/Result/ResultAggregations.js"), exports);
 tslib_1.__exportStar(__webpack_require__(/*! ./Result/Counter */ "./node_modules/apisearch/lib/Result/Counter.js"), exports);
 tslib_1.__exportStar(__webpack_require__(/*! ./Result/Result */ "./node_modules/apisearch/lib/Result/Result.js"), exports);
+tslib_1.__exportStar(__webpack_require__(/*! ./Transformer/ReadTransformer */ "./node_modules/apisearch/lib/Transformer/ReadTransformer.js"), exports);
 tslib_1.__exportStar(__webpack_require__(/*! ./Transformer/Transformer */ "./node_modules/apisearch/lib/Transformer/Transformer.js"), exports);
+tslib_1.__exportStar(__webpack_require__(/*! ./Transformer/WriteTransformer */ "./node_modules/apisearch/lib/Transformer/WriteTransformer.js"), exports);
 
 
 /***/ }),
@@ -11084,6 +11155,7 @@ var ApisearchUI = /** @class */ (function () {
     ApisearchUI.prototype.init = function (_a) {
         var _this = this;
         var _b = (_a === void 0 ? {} : _a).firstQuery, firstQuery = _b === void 0 ? true : _b;
+        this.activeWidgets.map(function (widget) { return widget.withConfig(_this.config); });
         /**
          * 1.- Register all events on the store
          */
@@ -11121,6 +11193,8 @@ var ApisearchUI = /** @class */ (function () {
      * @return {ApisearchUI}
      */
     ApisearchUI.prototype.addWidget = function (widget) {
+        console.log(this.config);
+        widget.withConfig(this.config);
         this.activeWidgets = __spreadArrays(this.activeWidgets, [widget]);
         return this;
     };
@@ -11212,6 +11286,7 @@ var ApisearchUI = /** @class */ (function () {
          * Add widgets
          */
         apisearchUI.widgets = Widgets_1["default"];
+        apisearchUI.config = config;
         var uiId = "ui_" + Math.ceil(Math.random() * (9999999 - 1) + 1);
         apisearchUI.reference = uiId;
         apisearchUI.userId = (_a = config.user_id) !== null && _a !== void 0 ? _a : "";
@@ -14408,21 +14483,16 @@ var SearchInputComponent = /** @class */ (function (_super) {
         var _this = _super.call(this, props) || this;
         _this.inputRef = compat_1.useRef(null);
         /**
-         * Handle search
-         *
-         * @param e
+         * @param search
          */
-        _this.handleSearch = function (e) {
+        _this.handleSearch = function (search) {
             var props = _this.props;
             var startSearchOn = props.startSearchOn;
             var environmentId = props.environmentId;
             var currentQuery = props.store.getCurrentQuery();
             var repository = props.repository;
-            var visibleResults = e.target.value.length >= startSearchOn;
-            /**
-             * Dispatch input search action
-             */
-            SearchInputActions_1.simpleSearchAction(environmentId, currentQuery, repository, e.target.value, visibleResults);
+            var visibleResults = search.length >= startSearchOn;
+            SearchInputActions_1.simpleSearchAction(environmentId, currentQuery, repository, search, visibleResults);
         };
         /**
          * Clear search
@@ -14438,6 +14508,18 @@ var SearchInputComponent = /** @class */ (function (_super) {
         };
         if (props.autocomplete) {
             _this.state = { queryText: '' };
+        }
+        var that = _this;
+        var speechRecognition = window['webkitSpeechRecognition'];
+        if (props.speechRecognition && typeof speechRecognition === "function") {
+            _this.speechRecognition = new speechRecognition();
+            _this.speechRecognition.onresult = function (event) {
+                var text = event.results[0][0].transcript;
+                _this.handleSearch(text);
+            };
+            _this.speechRecognition.onspeechend = function () {
+                that.speechRecognition.stop();
+            };
         }
         return _this;
     }
@@ -14485,7 +14567,19 @@ var SearchInputComponent = /** @class */ (function (_super) {
                 break;
         }
     };
+    SearchInputComponent.prototype.onSpeechMouseDown = function (e, speechRecognition) {
+        speechRecognition.start();
+    };
+    SearchInputComponent.prototype.onSpeechMouseUp = function (e, speechRecognition) {
+        speechRecognition.stop();
+    };
     SearchInputComponent.prototype.doNothing = function (e) { };
+    SearchInputComponent.prototype.withConfig = function (config) {
+        var _a;
+        if (this.speechRecognition) {
+            this.speechRecognition.lang = (_a = this.props.config.options.locale) !== null && _a !== void 0 ? _a : '';
+        }
+    };
     /**
      * Search
      *
@@ -14514,18 +14608,24 @@ var SearchInputComponent = /** @class */ (function (_super) {
         var style = showAutocomplete
             ? 'position: relative; top: 0px; left: 0px; background-color: transparent; border-color: transparent;'
             : '';
-        var searchInput = (preact_1.h("input", __assign({ type: 'text', className: "as-searchInput__input " + inputClassName, placeholder: placeholder, autofocus: autofocus }, htmlNodeInheritProps, { onInput: this.handleSearch, value: currentQueryText, style: style, onKeyDown: keyDownCallback, ref: this.inputRef })));
+        var searchInput = (preact_1.h("input", __assign({ type: 'text', className: "as-searchInput__input " + inputClassName, placeholder: placeholder, autofocus: autofocus }, htmlNodeInheritProps, { onInput: function (event) { return _this.handleSearch(event.target.value); }, value: currentQueryText, style: style, onKeyDown: keyDownCallback, ref: this.inputRef })));
         if (showAutocomplete) {
             searchInput = (preact_1.h("div", { style: "position: relative" },
                 preact_1.h(AutocompleteComponent_1["default"], { suggestions: suggestions, queryText: currentQueryText, inputClassName: inputClassName }),
                 searchInput));
+        }
+        if (this.speechRecognition) {
+            searchInput = (preact_1.h("div", { style: "position: relative" },
+                searchInput,
+                preact_1.h("div", { "class": "as-searchInput-speechRecognition", onMouseDown: function (e) { return _this.onSpeechMouseDown(e, _this.speechRecognition); } },
+                    preact_1.h(Template_1["default"], { template: props.template.speechRecognition, dictionary: props.dictionary }))));
         }
         if (withContainer) {
             searchInput = (preact_1.h("div", { className: "as-searchInput " + containerClassName },
                 searchInput,
                 (clearSearch && currentQueryText && currentQueryText.length !== 0)
                     ? (preact_1.h("div", { className: "as-searchInput__clearSearch " + clearSearchClassName, onClick: this.clearSearch },
-                        preact_1.h(Template_1["default"], { template: clearSearchTemplate, dictionary: this.props.dictionary }))) : null));
+                        preact_1.h(Template_1["default"], { template: clearSearchTemplate, dictionary: props.dictionary }))) : null));
         }
         return searchInput;
     };
@@ -14540,14 +14640,16 @@ SearchInputComponent.defaultProps = {
     initialSearch: '',
     withContainer: true,
     searchableFields: [],
+    speechRecognition: false,
     classNames: {
         container: '',
         input: '',
         clearSearch: ''
     },
     template: {
-        clearSearch: 'x'
-    }
+        clearSearch: 'x',
+        speechRecognition: '{S}'
+    },
 };
 exports["default"] = SearchInputComponent;
 
@@ -16021,12 +16123,13 @@ var SearchInput = /** @class */ (function (_super) {
      * @param template
      * @param initialSearch
      * @param searchableFields
+     * @param speechRecognition
      */
     function SearchInput(_a) {
-        var target = _a.target, placeholder = _a.placeholder, startSearchOn = _a.startSearchOn, clearSearch = _a.clearSearch, withContainer = _a.withContainer, autofocus = _a.autofocus, autocomplete = _a.autocomplete, classNames = _a.classNames, template = _a.template, initialSearch = _a.initialSearch, searchableFields = _a.searchableFields;
+        var target = _a.target, placeholder = _a.placeholder, startSearchOn = _a.startSearchOn, clearSearch = _a.clearSearch, withContainer = _a.withContainer, autofocus = _a.autofocus, autocomplete = _a.autocomplete, classNames = _a.classNames, template = _a.template, initialSearch = _a.initialSearch, searchableFields = _a.searchableFields, speechRecognition = _a.speechRecognition;
         var _this = _super.call(this) || this;
         _this.target = target;
-        _this.component = preact_1.h(SearchInputComponent_1["default"], { target: target, placeholder: placeholder, autofocus: autofocus, autocomplete: autocomplete, startSearchOn: startSearchOn, clearSearch: clearSearch, withContainer: withContainer, searchableFields: searchableFields, classNames: __assign(__assign({}, SearchInputComponent_1["default"].defaultProps.classNames), classNames), template: __assign(__assign({}, SearchInputComponent_1["default"].defaultProps.template), template), initialSearch: initialSearch });
+        _this.component = preact_1.h(SearchInputComponent_1["default"], { target: target, placeholder: placeholder, autofocus: autofocus, autocomplete: autocomplete, startSearchOn: startSearchOn, clearSearch: clearSearch, withContainer: withContainer, searchableFields: searchableFields, speechRecognition: speechRecognition, classNames: __assign(__assign({}, SearchInputComponent_1["default"].defaultProps.classNames), classNames), template: __assign(__assign({}, SearchInputComponent_1["default"].defaultProps.template), template), initialSearch: initialSearch, config: _this.config });
         return _this;
     }
     /**
@@ -16422,6 +16525,11 @@ exports.__esModule = true;
 var Widget = /** @class */ (function () {
     function Widget() {
     }
+    Widget.prototype.withConfig = function (config) {
+        if ("withConfig" in this.component) {
+            this.component.withConfig(config);
+        }
+    };
     /**
      * @param query
      * @param object

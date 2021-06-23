@@ -8,6 +8,13 @@ export default abstract class Widget {
 
     protected target;
     protected component: any;
+    protected config: any;
+
+    withConfig(config: any) {
+        if ("withConfig" in this.component) {
+            this.component.withConfig(config);
+        }
+    }
 
     /**
      * @param environmentId
